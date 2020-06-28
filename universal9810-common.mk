@@ -223,6 +223,13 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
+    android.hardware.power@1.3-service.samsung-9810
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PLATFORM_VNDK_VERSION)/etc/powerhint.json
+
+# Recovery
+PRODUCT_PACKAGES += \
     android.hardware.power@1.0-service.exynos
 
 # Ramdisk
