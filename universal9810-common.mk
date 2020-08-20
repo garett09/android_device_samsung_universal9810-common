@@ -84,10 +84,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     lineage.livedisplay@2.0-service.9810
 
-# Trust
-PRODUCT_PACKAGES += \
-    lineage.trust@1.0-service
-
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.3-service.9810
