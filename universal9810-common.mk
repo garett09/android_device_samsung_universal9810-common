@@ -94,6 +94,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_HOST_PACKAGES += \
     dtbhtoolExynos
 
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-service \
+    android.hardware.gatekeeper@1.0-impl
+
 # SP-NDK
 PRODUCT_PACKAGES += \
     libvulkan
