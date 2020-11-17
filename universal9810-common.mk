@@ -122,6 +122,10 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl \
     libkeymaster3device
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.samsung
+
 # SP-NDK
 PRODUCT_PACKAGES += \
     libvulkan
@@ -176,10 +180,6 @@ PRODUCT_PACKAGES += \
 # Trust HAL
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
-
-# Lights
-PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.9810
 
 # S-Pen
 PRODUCT_COPY_FILES += \
