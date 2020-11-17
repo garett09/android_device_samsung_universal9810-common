@@ -1,14 +1,41 @@
 # Audio
 lib/hw/audio.playback_record.default.so
 lib/hw/audio.tms.default.so
-lib/libsecaudiocoreutils.so
+
+# Bluetooth
+lib64/android.hardware.bluetooth.audio@2.0.so
+lib64/android.hardware.bluetooth@1.0.so
 
 # Bluetooth - APT-X
 lib64/libaptX_encoder.so
 
+# Fingerprint
+etc/permissions/com.sec.feature.fingerprint_manager_service.xml
+lib/android.hardware.biometrics.fingerprint@2.1.so
+lib/vendor.samsung.hardware.biometrics.fingerprint@3.0.so
+lib64/android.hardware.biometrics.fingerprint@2.1.so
+lib64/vendor.samsung.hardware.biometrics.fingerprint@3.0.so
+
+# GPS
+etc/gps_debug.conf
+etc/gps_psds.conf
+lib/android.hardware.gnss@1.0.so
+lib/android.hardware.gnss@1.1.so
+lib/android.hardware.gnss@2.0.so
+lib/vendor.samsung.hardware.gnss@2.0.so
+lib64/android.hardware.gnss@1.0.so
+lib64/android.hardware.gnss@1.1.so
+lib64/android.hardware.gnss@2.0.so
+lib64/vendor.samsung.hardware.gnss@2.0.so
+
 # Hotword Enrollment
 -priv-app/HotwordEnrollmentOKGoogleExCORTEXM4/HotwordEnrollmentOKGoogleExCORTEXM4.apk;PRESIGNED
 -priv-app/HotwordEnrollmentXGoogleExCORTEXM4/HotwordEnrollmentXGoogleExCORTEXM4.apk;PRESIGNED
+
+# Keystore
+lib/libskeymaster.so
+lib64/libskeymaster.so
+lib64/libkeymaster_helper.so
 
 # LPM
 bin/lpm
@@ -33,6 +60,36 @@ media/water_protection_usb.spi
 # NFC
 etc/nfc_key
 etc/nfcee_access.xml
+
+# WiFi
+lib/android.hardware.wifi.hostapd@1.0.so
+lib/vendor.samsung.hardware.wifi.hostapd@2.0.so
+lib/libwifi-system.so
+lib/android.hardware.wifi.supplicant@1.0.so
+lib/libwifi-service.so
+lib/android.hardware.wifi.supplicant@1.1.so
+lib/android.hardware.wifi.hostapd@1.1.so
+lib/vendor.samsung.hardware.wifi@2.0.so
+lib/vendor.samsung.hardware.wifi.supplicant@2.0.so
+lib/android.system.wifi.keystore@1.0.so
+lib/android.hardware.wifi.supplicant@1.2.so
+lib/android.hardware.wifi@1.0.so
+lib/libwifikeystorehal.so
+lib64/android.hardware.wifi.hostapd@1.0.so
+lib64/vendor.samsung.hardware.wifi.hostapd@2.0.so
+lib64/libwifi-system.so
+lib64/android.hardware.wifi.supplicant@1.0.so
+lib64/libwifi-service.so
+lib64/android.hardware.wifi.offload@1.0.so
+lib64/android.hardware.wifi.supplicant@1.1.so
+lib64/android.hardware.wifi.hostapd@1.1.so
+lib64/vendor.samsung.hardware.wifi@2.0.so
+lib64/libwifi-system-iface.so
+lib64/vendor.samsung.hardware.wifi.supplicant@2.0.so
+lib64/android.system.wifi.keystore@1.0.so
+lib64/android.hardware.wifi.supplicant@1.2.so
+lib64/android.hardware.wifi@1.0.so
+lib64/libwifikeystorehal.so
 
 # Zswap
 -sbin/sswap;rootfs
