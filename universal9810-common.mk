@@ -76,6 +76,16 @@ PRODUCT_PACKAGES += \
     android.hardware.configstore@1.0-impl \
     android.hardware.configstore@1.0-service
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0 \
+    android.hardware.drm@1.1 \
+    libfwdlockengine \
+    libdrmclearkeyplugin \
+    android.hardware.drm@1.0-service \
+    android.hardware.drm@1.2-service.clearkey \
+    android.hardware.drm@1.0-impl
+
 # SP-NDK
 PRODUCT_PACKAGES += \
     libvulkan
