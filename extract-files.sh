@@ -72,3 +72,7 @@ extract "${MY_DIR}/proprietary-files-vendor.txt" "${SRC}" \
 "${MY_DIR}/setup-makefiles.sh"
 
 BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE_COMMON"/proprietary
+
+# Fix NFC namespace error
+sed -i 's|<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">|<resources xmlns:android="http://schemas.android.com/apk/res/android">|' $BLOB_ROOT/etc/nfcee_access.xml
+
