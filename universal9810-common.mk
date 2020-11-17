@@ -229,6 +229,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/mobicore.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mobicore.rc \
     $(LOCAL_PATH)/rootdir/etc/ueventd.samsungexynos9810.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
 
+# RenderScript
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
+
 # SamsungDoze
 PRODUCT_PACKAGES += \
     SamsungDoze
