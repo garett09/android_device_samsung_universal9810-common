@@ -24,6 +24,8 @@ TARGET_EXCLUDES_AUDIOFX := true
 USE_XML_AUDIO_POLICY_CONF := 1
 
 # Bluetooth
+BOARD_CUSTOM_BT_CONFIG := $(LOCAL_PATH)/bluetooth/libbt_vndcfg.txt
+BOARD_HAVE_BLUETOOTH := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_PATH)/bluetooth
 
 # Firmware
@@ -84,6 +86,9 @@ BOARD_ROOT_EXTRA_FOLDERS := efs
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "ABGR_8888"
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.samsungexynos9810.recovery
+
+# Samsung HALs
+TARGET_POWERHAL_VARIANT := samsung
 
 # Soong
 BUILD_BROKEN_DUP_RULES := true
