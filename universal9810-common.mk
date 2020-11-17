@@ -71,6 +71,11 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4 \
     Snap
 
+# Configstore
+PRODUCT_PACKAGES += \
+    android.hardware.configstore@1.0-impl \
+    android.hardware.configstore@1.0-service
+
 # SP-NDK
 PRODUCT_PACKAGES += \
     libvulkan
