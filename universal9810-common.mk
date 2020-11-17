@@ -268,6 +268,10 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 PRODUCT_PACKAGES += \
     libgui_vendor
 
+# TextClassifier
+PRODUCT_PACKAGES += \
+    textclassifier.bundle1
+
 # Trust HAL
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
