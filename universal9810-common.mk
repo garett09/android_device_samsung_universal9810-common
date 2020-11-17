@@ -258,6 +258,9 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     android.hardware.sensors@1.0-service
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+
 # Trust HAL
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
@@ -269,9 +272,6 @@ PRODUCT_COPY_FILES += \
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio_keys.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/gpio_keys.kl
-
-# Soong
-PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # Property overrides
 -include $(LOCAL_PATH)/product_prop.mk
