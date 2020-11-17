@@ -49,15 +49,14 @@ Vibrator::Vibrator() {}
 
 // Methods from ::android::hardware::vibrator::V1_0::IVibrator follow.
 Return<Status> Vibrator::on(uint32_t timeout_ms) {
-    set("/sys/class/leds/vibrator/state", 1);
-    set("/sys/class/leds/vibrator/duration", timeout_ms);
-    set("/sys/class/leds/vibrator/activate", 1);
+    set("/sys/class/timed_output/vibrator/intensity", 1);
+    set("/sys/class/timed_output/vibrator/enable", 1);
 
     return Status::OK;
 }
 
 Return<Status> Vibrator::off() {
-    set("/sys/class/leds/vibrator/activate", 0);
+    set("/sys/class/timed_output/vibrator/enable", 0);
 
     return Status::OK;
 }
