@@ -35,17 +35,13 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.bluetooth.a2dp_offload.disabled=true \
     vendor.audio.feature.a2dp_offload.enable=false
 
-# Process pool
-PRODUCT_PRODUCT_PROPERTIES += \
-    persist.device_config.runtime_native.usap_pool_enabled=true
-
 # Tones
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.ringtone=Xylophone_Dubstep.ogg \
     ro.config.notification_sound=Argon.ogg \
     ro.config.alarm_alert=Hassium.ogg \
     ro.config.vc_call_vol_steps=10 \
-    ro.config.media_vol_steps=20
+    ro.config.media_vol_steps=5
 
 # Dex2oat
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -59,11 +55,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.boot-dex2oat-threads=8 \
     dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
 
-# overrides
+# Props
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.product.brand=google \
-    ro.product.device=coral \
+    ro.product.device=redfin \
     ro.product.manufacturer=google \
-    ro.product.model=Pixel 4 XL \
-    ro.product.name=coral \
+    ro.product.model=Pixel 5 \
+    ro.product.name=redfin \
     ro.vendor.product.manufacturer=google
