@@ -90,6 +90,3 @@ lib64/android.system.wifi.keystore@1.0.so
 lib64/android.hardware.wifi.supplicant@1.2.so
 lib64/android.hardware.wifi@1.0.so
 lib64/libwifikeystorehal.so
-
-# Zswap
--sbin/sswap;rootfs
