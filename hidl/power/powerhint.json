@@ -19,7 +19,9 @@
                 "1248000",
                 "1053000",
                 "832000",
-                "455000"
+                "455000",
+		"299000", 
+		"208000"
             ],
             "ResetOnInit": true
         },
@@ -44,7 +46,8 @@
                 "1261000",
                 "1066000",
                 "858000",
-                "650000"
+                "650000",
+		"598000"
             ],
             "ResetOnInit": true
         },
@@ -177,7 +180,7 @@
             "PowerHint": "CAMERA_LAUNCH",
             "Node": "CPUBigClusterMaxFreq",
             "Duration": 1000,
-            "Value": "2704000"
+            "Value": "2106000"
         },
         {
             "PowerHint": "CAMERA_LAUNCH",
