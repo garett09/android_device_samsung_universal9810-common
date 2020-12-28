@@ -13,3 +13,6 @@ lib64/libaptX_encoder.so
 # NFC
 etc/nfc_key
 etc/nfcee_access.xml
+
+# Zswap
+-sbin/sswap;rootfs
