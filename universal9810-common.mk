@@ -95,10 +95,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     lineage.livedisplay@2.0-service.9810
 
-# Touch
-PRODUCT_PACKAGES += \
-    lineage.touch@1.0-service.9810
-
 # Lights
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/hidl/lights/vendor.samsung.hardware.light@3.0-service:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/bin/hw/vendor.samsung.hardware.light@3.0-service \
