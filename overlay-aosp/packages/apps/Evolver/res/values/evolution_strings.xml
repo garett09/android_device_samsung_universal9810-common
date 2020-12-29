@@ -15,6 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="evolution_about_maintainer">yarpiin</string>
+    <string name="evolution_about_maintainer">garett09</string>
     <string name="evolution_about_maintainer_summary">Toss a coin to your Witcher</string>
 </resources>
