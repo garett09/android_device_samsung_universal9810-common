@@ -115,16 +115,6 @@
 	</interface>
     </hal>
     <hal format="hidl">
-        <name>vendor.samsung.hardware.gnss</name>
-        <transport>hwbinder</transport>
-        <impl level="generic"></impl>
-        <version>2.0</version>
-        <interface>
-            <name>ISehGnss</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.drm</name>
         <transport>hwbinder</transport>
         <impl level="generic"></impl>
@@ -347,12 +337,12 @@
     <hal format="hidl">
         <name>vendor.samsung.hardware.gnss</name>
         <transport>hwbinder</transport>
-        <version>1.0</version>
+        <impl level="generic"></impl>
+        <version>2.0</version>
         <interface>
-            <name>ISlsiGnss</name>
+            <name>ISehGnss</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::ISlsiGnss/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.trustonic.teeregistry</name>
