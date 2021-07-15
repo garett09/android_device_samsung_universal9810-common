@@ -35,3 +35,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.cscsupported=1 \
     ro.cmc.device_type=pd \
     ro.cmc.version=2.0
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.adb.secure=0 \
+    ro.secure=0 \
+    ro.debuggable=1 \
+    ro.control_privapp_permissions=log
+
+# Process pool
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.device_config.runtime_native.usap_pool_enabled=true
