@@ -41,7 +41,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.secure=0 \
     ro.debuggable=1 \
     ro.control_privapp_permissions=log
-
-# Process pool
-PRODUCT_PRODUCT_PROPERTIES += \
-    persist.device_config.runtime_native.usap_pool_enabled=true
