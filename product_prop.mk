@@ -33,13 +33,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.bluetooth.a2dp_offload.disabled=true \
     vendor.audio.feature.a2dp_offload.enable=false
 
-# Process pool
-PRODUCT_PRODUCT_PROPERTIES += \
-    persist.device_config.runtime_native.usap_pool_enabled=true
-
 # Tones
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.ringtone=Xylophone_Dubstep.ogg \
     ro.config.notification_sound=Argon.ogg \
     ro.config.alarm_alert=Hassium.ogg \
-    ro.config.vc_call_vol_steps=7
+    ro.config.vc_call_vol_steps=5
