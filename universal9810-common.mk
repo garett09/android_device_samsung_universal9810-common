@@ -92,6 +92,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/libnfc-nci.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/libnfc-nci.conf \
     $(LOCAL_PATH)/configs/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/libnfc-sec-vendor.conf
 
+# BatteryLifeExtender
+PRODUCT_PACKAGES += \
+    vendor.lineage.batterylifeextender@1.0-service.samsung
+
 # LiveDisplay
 PRODUCT_PACKAGES += \
     lineage.livedisplay@2.0-service.9810
