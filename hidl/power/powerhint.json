@@ -152,7 +152,7 @@
             "PowerHint": "CAMERA_SHOT",
             "Node": "CPUBigClusterMaxFreq",
             "Duration": 1000,
-            "Value": "1794000"
+            "Value": "2314000"
         },
         {
             "PowerHint": "CAMERA_SHOT",
@@ -170,7 +170,7 @@
             "PowerHint": "CAMERA_SHOT",
             "Node": "CPULittleClusterMinFreq",
             "Duration": 1000,
-            "Value": "858000"
+            "Value": "1053000"
         },
         {
             "PowerHint": "CAMERA_SHOT",
