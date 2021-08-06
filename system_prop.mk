@@ -41,3 +41,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.secure=0 \
     ro.debuggable=1 \
     ro.control_privapp_permissions=log
+
+# Props
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.sys.purgeable_assets=1 \
+persist.sys.scrollingcache=0
