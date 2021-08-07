@@ -83,6 +83,8 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_USES_HWC2 := true
 OVERRIDE_RS_DRIVER := libRSDriverArm.so
 BACKLIGHT_PATH := "/sys/class/backlight/panel/brightness"
+TARGET_HAS_HDR_DISPLAY := true
+TARGET_HAS_WIDE_COLOR_DISPLAY := true
 
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "ABGR_8888"
