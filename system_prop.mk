@@ -44,5 +44,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Props
 PRODUCT_PROPERTY_OVERRIDES += \
-persist.sys.purgeable_assets=1 \
 persist.sys.scrollingcache=0
