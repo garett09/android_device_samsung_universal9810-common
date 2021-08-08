@@ -37,5 +37,8 @@
      
       <!-- Show camera affordance on Keyguard -->
     <bool name="config_keyguardShowCameraAffordance">true</bool>
+
+    <!-- Show camera affordance on Keyguard -->
+    <bool name="config_keyguardShowPhoneAffordance">true</bool>
      
 </resources>
