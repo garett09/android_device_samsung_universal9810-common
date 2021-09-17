@@ -16,15 +16,9 @@
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-ifneq ($(findstring lineage, $(TARGET_PRODUCT)),)
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
-endif
-
 # Screen density
-# Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := xlarge
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
-# A list of dpis to select prebuilt apk, in precedence order.
 PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 
 # Audio
@@ -149,7 +143,7 @@ PRODUCT_PACKAGES += \
 
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-hotword.xml
+    $(LOCAL_PATH)/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-hotword.xml
 
 # Media
 PRODUCT_COPY_FILES += \
