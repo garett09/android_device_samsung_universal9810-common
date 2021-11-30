@@ -76,6 +76,9 @@ TARGET_RECOVERY_PIXEL_FORMAT := "ABGR_8888"
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.samsungexynos9810.recovery
 BOARD_HAS_DOWNLOAD_MODE := true
 
+# Manifest
+DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/manifest.xml
+
 # Samsung HALs
 TARGET_POWERHAL_VARIANT := samsung
 
