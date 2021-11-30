@@ -274,7 +274,7 @@
         </interface>
     </hal>
     <sepolicy>
-        <version>26.0</version>
+        <version>30.0</version>
     </sepolicy>
     <hal format="hidl">
         <name>vendor.trustonic.tee</name>
