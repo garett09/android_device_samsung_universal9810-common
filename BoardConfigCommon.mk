@@ -77,7 +77,7 @@ TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.samsungexynos9810.reco
 BOARD_HAS_DOWNLOAD_MODE := true
 
 # Manifest
-DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/manifest.xml
+DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 
 # Samsung HALs
 TARGET_POWERHAL_VARIANT := samsung
