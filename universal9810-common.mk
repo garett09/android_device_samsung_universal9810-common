@@ -288,6 +288,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     textclassifier.bundle1
 
+# Touch
+PRODUCT_PACKAGES += \
+    lineage.touch@1.0-service.9810
+
 # Trust HAL
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
