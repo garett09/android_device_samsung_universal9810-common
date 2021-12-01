@@ -283,9 +283,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
 
-PRODUCT_PACKAGES += \
-    lineage.fastcharge@1.0-service.9810
-
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.1-service.typec
