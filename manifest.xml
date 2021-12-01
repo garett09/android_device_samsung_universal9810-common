@@ -308,6 +308,16 @@
         </interface>
     </hal>
     <hal format="hidl">
+        <name>vendor.samsung.hardware.audio</name>
+        <transport>hwbinder</transport>
+        <version>2.0</version>
+        <interface>
+            <name>ISehWifi</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@2.0::ISehWifi/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.trustonic.teeregistry</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
