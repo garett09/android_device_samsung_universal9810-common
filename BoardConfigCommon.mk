@@ -117,7 +117,6 @@ BACKLIGHT_PATH := "/sys/class/backlight/panel/brightness"
 
 # VNDK
 BOARD_VNDK_VERSION := current
-PRODUCT_TARGET_VNDK_VERSION := 29
 
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(COMMON_PATH)/framework_manifest.xml
