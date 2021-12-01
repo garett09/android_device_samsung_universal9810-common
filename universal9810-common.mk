@@ -298,6 +298,7 @@ PRODUCT_PACKAGES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
+    WifiOverlay \
     macloader \
     wifiloader \
     hostapd \
