@@ -306,13 +306,7 @@ PRODUCT_PACKAGES += \
 # Wifi
 PRODUCT_PACKAGES += \
     WifiOverlay \
-    macloader \
-    wifiloader \
     hostapd \
-    wificond \
-    wifilogd \
-    wlutil \
-    libwpa_client \
     wpa_supplicant \
     wpa_supplicant.conf \
     android.hardware.wifi@1.0-service \
