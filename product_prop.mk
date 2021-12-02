@@ -43,6 +43,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     security.securenvm.available=false \
     dalvik.vm.lockprof.threshold=500 \
     ro.carrier=unknown \
+    vendor.rild.libpath=/vendor/lib64/libsec-ril.so \
     vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so \
     vendor.sec.rild.libpath2=/vendor/lib64/libsec-ril-dsds.so \
     security.mdf.result=None \
@@ -125,3 +126,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.charger.enable_suspend=true
+
+# Samsung specific
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.product_ship=true \
+    ro.vendor.cscsupported=1
