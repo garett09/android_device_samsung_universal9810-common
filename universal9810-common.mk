@@ -324,6 +324,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/p2p_supplicant_overlay.conf:$(TARGET_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(LOCAL_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
 
+# PUBLIC LIBRARIES
+PRODUCT_COPY_FILES += \
+    $(PLATFORM_PATH)/config/linker/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
+
 # Property overrides
 -include $(LOCAL_PATH)/product_prop.mk
 
