@@ -77,6 +77,9 @@ TARGET_RECOVERY_PIXEL_FORMAT := "ABGR_8888"
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.samsungexynos9810.recovery
 BOARD_HAS_DOWNLOAD_MODE := true
 
+# RIL
+ENABLE_VENDOR_RIL_SERVICE := true
+
 # Manifest
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 
