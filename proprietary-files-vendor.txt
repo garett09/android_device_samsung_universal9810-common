@@ -65,7 +65,6 @@ vendor/lib64/vendor.samsung.hardware.bluetooth@2.0.so
 vendor/bin/hw/android.hardware.bluetooth@1.0-service
 vendor/etc/init/android.hardware.bluetooth@1.0-service.rc
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl.so
-vendor/lib64/libbt-vendor.so
 
 # Camera
 vendor/lib/camera.device@1.0-impl.so
