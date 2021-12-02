@@ -249,6 +249,8 @@ PRODUCT_COPY_FILES += \
 
 # libprotobuf
 PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full \
+    libprotobuf-cpp-full-vendorcompat \
     libprotobuf-cpp-lite \
     libprotobuf-cpp-lite-vendorcompat
 
