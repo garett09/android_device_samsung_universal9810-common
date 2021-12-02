@@ -283,7 +283,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.basic
+    android.hardware.usb@1.1-service.typec
 
 # Vendor security patch level
 PRODUCT_PROPERTY_OVERRIDES += \
