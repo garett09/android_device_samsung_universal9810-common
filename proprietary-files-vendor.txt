@@ -316,7 +316,7 @@ vendor/bin/cbd
 vendor/bin/hw/rild
 vendor/lib/libdsms_vendor.so
 vendor/lib/libreference-ril.so
-vendor/lib/libril.so
+vendor/lib/libril.so:vendor/lib/libril-samsung.so
 vendor/lib/libsec-ril-dsds.so
 vendor/lib/libsec-ril.so
 vendor/lib/libsec_semRil.so
@@ -329,7 +329,7 @@ vendor/lib/vendor.samsung.hardware.radio@2.0.so
 vendor/lib/vendor.samsung.hardware.radio@2.1.so
 vendor/lib64/libdsms_vendor.so
 vendor/lib64/libreference-ril.so
-vendor/lib64/libril.so
+vendor/lib64/libril.so:vendor/lib/libril-samsung.so
 vendor/lib64/libsec-ril-dsds.so
 vendor/lib64/libsec-ril.so
 vendor/lib64/libsec_semRil.so
