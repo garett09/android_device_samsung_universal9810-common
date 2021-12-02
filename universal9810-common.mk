@@ -230,7 +230,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.samsung.rc \
     $(LOCAL_PATH)/rootdir/etc/init.samsungexynos9810.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.samsungexynos9810.rc \
     $(LOCAL_PATH)/rootdir/etc/init.samsungexynos9810.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.samsungexynos9810.usb.rc \
-    $(LOCAL_PATH)/rootdir/etc/mobicore.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mobicore.rc \
     $(LOCAL_PATH)/rootdir/etc/ueventd.samsungexynos9810.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
 
 # RenderScript
