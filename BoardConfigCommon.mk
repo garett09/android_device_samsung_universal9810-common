@@ -78,7 +78,9 @@ TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.samsungexynos9810.reco
 BOARD_HAS_DOWNLOAD_MODE := true
 
 # RIL
+BOARD_MODEM_TYPE := ss333
 ENABLE_VENDOR_RIL_SERVICE := true
+TARGET_USES_VND_SECRIL := true
 
 # Manifest
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
