@@ -124,7 +124,7 @@ PRODUCT_PACKAGES += \
     audio.a2dp.default \
     android.hardware.bluetooth@1.0-impl \
     android.hardware.bluetooth@1.0-service \
-    libbt-vendor
+    libbt-vendor:64
 
 # Camera
 PRODUCT_PACKAGES += \
