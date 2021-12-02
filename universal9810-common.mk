@@ -17,14 +17,17 @@ PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio.effect@4.0-impl \
+    android.hardware.audio.service \
+    android.hardware.audio@5.0-impl \
+    android.hardware.audio.effect@5.0-impl \
     android.hardware.audio@2.0-service \
-    android.hardware.audio@4.0-impl \
     android.hardware.soundtrigger@2.0-impl \
     audio.r_submix.default \
     audio.usb.default \
     libtinycompress \
-    libaudioroute
+    libaudioroute \
+    libtinyalsa \
+    libtinycompress
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
