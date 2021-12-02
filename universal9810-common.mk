@@ -121,7 +121,10 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    audio.a2dp.default
+    audio.a2dp.default \
+    android.hardware.bluetooth@1.0-impl \
+    android.hardware.bluetooth@1.0-service \
+    libbt-vendor
 
 # Camera
 PRODUCT_PACKAGES += \
