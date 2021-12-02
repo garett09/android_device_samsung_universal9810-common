@@ -310,7 +310,7 @@ PRODUCT_COPY_FILES += \
 
 # PUBLIC LIBRARIES
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/config/linker/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
+    $(LOCAL_PATH)/configs/linker/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
 # Property overrides
 -include $(LOCAL_PATH)/product_prop.mk
