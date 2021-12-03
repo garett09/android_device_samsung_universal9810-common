@@ -157,7 +157,8 @@ PRODUCT_PACKAGES += \
 
 # Net
 PRODUCT_PACKAGES += \
-    netutils-wrapper-1.0
+    netutils-wrapper-1.0 \
+    TetheringConfigOverlay
 
 # NFC
 PRODUCT_PACKAGES += \
