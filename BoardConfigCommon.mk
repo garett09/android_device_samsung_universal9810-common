@@ -109,6 +109,7 @@ WIFI_DRIVER_FW_PATH_AP           := "/vendor/etc/wifi/bcmdhd_apsta.bin"
 WIFI_BAND                        := 802_11_ABG
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := false
+WIFI_RESET_IFACE_AFTER_MAC_CHANGE := true
 
 # MACLOADER
 BOARD_HAVE_SAMSUNG_WIFI          := true
